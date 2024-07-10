@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+.logo {
+    float: left;
+    margin-left: 20px;
+}
+.logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+.logo-content img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.logo-content span {
+    font-size: 36px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Peso de la fuente ajustable */
+    color: white; /* Color del texto en blanco */
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es más pequeña */
+}
+
+.text-box {
+    background-color: #080000;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px; /* Bordes redondeados */
+    font-size: 18px;
+    text-align: center;
+    width: 200px; /* Ancho fijo para los contenedores de texto */
+    box-shadow: 0px 0px 10px rgb(243, 5, 5); /* Sombra ligera para los contenedores */
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es más pequeña */
+}
+
+.video-box {
+    background-color: #444;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 1px 1px 10px rgb(236, 0, 0); /* Sombra ligera para los contenedores */
+    overflow: hidden; /* Para que el contenido no sobresalga del borde redondeado */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; /* Bordes redondeados para el video */
+}

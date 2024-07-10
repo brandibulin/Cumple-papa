@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+.logo-content img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.logo-content span {
+    font-size: 36px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Peso de la fuente ajustable */
+    color: white; /* Color del texto en blanco */
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.content .item {
+    width: 45%; /* Aumenta el ancho de cada item para hacer las imágenes más grandes */
+    margin: 15px 0;
+    text-align: center;
+}
+
+.content .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    height: auto;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-buttons button {
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
